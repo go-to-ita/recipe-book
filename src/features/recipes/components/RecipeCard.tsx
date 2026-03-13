@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import type { Recipe } from "../../../store/recipesApi";
 
 interface RecipeCardProps {
@@ -6,11 +7,11 @@ interface RecipeCardProps {
 
 export function RecipeCard({ recipe }: RecipeCardProps) {
   return (
-    <div className="bg-white rounded-2xl shadow-md overflow-hidden flex flex-col">
+    <Link to={`/recipes/${recipe.id}`} className="bg-white rounded-2xl shadow-md overflow-hidden flex flex-col hover:shadow-lg transition-shadow">
       <div className="aspect-video bg-gray-100">
-        {recipe.image ? (
+        {recipe.imageUrl ? (
           <img
-            src={recipe.image}
+            src={recipe.imageUrl}
             alt={recipe.name}
             className="w-full h-full object-cover"
           />
@@ -49,9 +50,9 @@ export function RecipeCard({ recipe }: RecipeCardProps) {
         </div>
 
         <p className="text-sm text-gray-500 mt-auto">
-          ⏱ {recipe.prepTime}
+          ⏱ {recipe.prepTime} min
         </p>
       </div>
-    </div>
+    </Link>
   );
 }

@@ -5,9 +5,11 @@ export interface Recipe {
   name: string;
   category: string;
   difficulty: string;
-  prepTime: string;
-  image: string;
+  prepTime: number;
+  imageUrl: string;
   description?: string;
+  ingredients?: string[];
+  steps?: string[];
 }
 
 export type Category = string | { id: number; name: string };
@@ -22,7 +24,10 @@ export const recipesApi = createApi({
     getCategories: builder.query<Category[], void>({
       query: () => "/categories",
     }),
+    getRecipeById: builder.query<Recipe, number>({
+      query: (id) => `/recipes/${id}`,
+    }),
   }),
 });
 
-export const { useGetRecipesQuery, useGetCategoriesQuery } = recipesApi;
+export const { useGetRecipesQuery, useGetCategoriesQuery, useGetRecipeByIdQuery } = recipesApi;

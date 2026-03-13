@@ -20,7 +20,15 @@
       "Bash(cd \"D:/Devel/Apsys/Curso Claude/recipe-book\" && openspec instructions design --change \"add-search-and-filter\" --json 2>&1)",
       "Bash(cd \"D:/Devel/Apsys/Curso Claude/recipe-book\" && openspec instructions specs --change \"add-search-and-filter\" --json 2>&1)",
       "Bash(cd \"D:/Devel/Apsys/Curso Claude/recipe-book\" && openspec instructions tasks --change \"add-search-and-filter\" --json 2>&1)",
-      "Bash(cd \"D:/Devel/Apsys/Curso Claude/recipe-book\" && openspec status --change \"add-search-and-filter\" 2>&1)"
+      "Bash(cd \"D:/Devel/Apsys/Curso Claude/recipe-book\" && openspec status --change \"add-search-and-filter\" 2>&1)",
+      "Bash(cd \"D:\\\\Devel\\\\Apsys\\\\Curso Claude\\\\recipe-book\" && openspec new change \"add-recipe-detail-page\" 2>&1)",
+      "Bash(cd \"D:\\\\Devel\\\\Apsys\\\\Curso Claude\\\\recipe-book\" && openspec status --change \"add-recipe-detail-page\" 2>&1)",
+      "Bash(cd \"D:\\\\Devel\\\\Apsys\\\\Curso Claude\\\\recipe-book\" && openspec instructions proposal --change \"add-recipe-detail-page\" 2>&1)",
+      "Bash(cd \"D:\\\\Devel\\\\Apsys\\\\Curso Claude\\\\recipe-book\" && openspec status --change \"add-recipe-detail-page\" --json 2>&1)",
+      "Bash(cd \"D:\\\\Devel\\\\Apsys\\\\Curso Claude\\\\recipe-book\" && openspec instructions proposal --change \"add-recipe-detail-page\" --json 2>&1)",
+      "Bash(cd \"D:\\\\Devel\\\\Apsys\\\\Curso Claude\\\\recipe-book\" && openspec instructions specs --change \"add-recipe-detail-page\" --json 2>&1)",
+      "Bash(cd \"D:\\\\Devel\\\\Apsys\\\\Curso Claude\\\\recipe-book\" && openspec instructions tasks --change \"add-recipe-detail-page\" --json 2>&1)",
+      "Bash(cd \"D:\\\\Devel\\\\Apsys\\\\Curso Claude\\\\recipe-book\" && openspec instructions apply --change \"add-recipe-detail-page\" --json 2>&1)"
     ]
   }
 }
