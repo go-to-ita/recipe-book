@@ -1,8 +1,15 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { RecipesPage } from "./features/recipes/pages/RecipesPage";
+
 function App() {
   return (
-    <div className="min-h-screen bg-gray-50">
-      <h1 className="text-2xl font-bold p-8">Recipe Book</h1>
-    </div>
+    <BrowserRouter>
+      <div className="min-h-screen bg-gray-50">
+        <Routes>
+          <Route path="/" element={<RecipesPage />} />
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 

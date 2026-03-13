@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd \"D:\\\\Devel\\\\Apsys\\\\Curso Claude\\\\recipe-book\" && openspec new change \"add-recipe-listing\" 2>&1)",
+      "Bash(cd \"D:\\\\Devel\\\\Apsys\\\\Curso Claude\\\\recipe-book\" && openspec status --change \"add-recipe-listing\" --json 2>&1)",
+      "Bash(cd \"D:\\\\Devel\\\\Apsys\\\\Curso Claude\\\\recipe-book\" && openspec instructions proposal --change \"add-recipe-listing\" --json 2>&1)",
+      "Bash(ls \"D:\\\\Devel\\\\Apsys\\\\Curso Claude\\\\recipe-book\\\\openspec\\\\specs\\\\\" 2>/dev/null || echo \"No specs dir\")",
+      "Bash(cd \"D:/Devel/Apsys/Curso Claude/recipe-book\" && openspec instructions design --change \"add-recipe-listing\" --json 2>&1)",
+      "Bash(cd \"D:/Devel/Apsys/Curso Claude/recipe-book\" && openspec instructions specs --change \"add-recipe-listing\" --json 2>&1)",
+      "Bash(cd \"D:/Devel/Apsys/Curso Claude/recipe-book\" && openspec status --change \"add-recipe-listing\" --json 2>&1)",
+      "Bash(cd \"D:/Devel/Apsys/Curso Claude/recipe-book\" && openspec instructions tasks --change \"add-recipe-listing\" --json 2>&1)",
+      "Bash(cd \"D:/Devel/Apsys/Curso Claude/recipe-book\" && openspec status --change \"add-recipe-listing\" 2>&1)",
+      "Bash(cd \"D:/Devel/Apsys/Curso Claude/recipe-book\" && openspec instructions apply --change \"add-recipe-listing\" --json 2>&1)",
+      "Bash(cd \"D:/Devel/Apsys/Curso Claude/recipe-book\" && npm install react-router-dom 2>&1)",
+      "Bash(cd \"D:/Devel/Apsys/Curso Claude/recipe-book\" && npm install react-router-dom --legacy-peer-deps 2>&1)",
+      "Bash(cd \"D:/Devel/Apsys/Curso Claude/recipe-book\" && npx tsc --noEmit 2>&1)"
+    ]
+  }
+}
