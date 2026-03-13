@@ -7,7 +7,10 @@ export interface Recipe {
   difficulty: string;
   prepTime: string;
   image: string;
+  description?: string;
 }
+
+export type Category = string | { id: number; name: string };
 
 export const recipesApi = createApi({
   reducerPath: "recipesApi",
@@ -16,7 +19,10 @@ export const recipesApi = createApi({
     getRecipes: builder.query<Recipe[], void>({
       query: () => "/recipes",
     }),
+    getCategories: builder.query<Category[], void>({
+      query: () => "/categories",
+    }),
   }),
 });
 
-export const { useGetRecipesQuery } = recipesApi;
+export const { useGetRecipesQuery, useGetCategoriesQuery } = recipesApi;

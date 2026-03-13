@@ -13,7 +13,14 @@
       "Bash(cd \"D:/Devel/Apsys/Curso Claude/recipe-book\" && openspec instructions apply --change \"add-recipe-listing\" --json 2>&1)",
       "Bash(cd \"D:/Devel/Apsys/Curso Claude/recipe-book\" && npm install react-router-dom 2>&1)",
       "Bash(cd \"D:/Devel/Apsys/Curso Claude/recipe-book\" && npm install react-router-dom --legacy-peer-deps 2>&1)",
-      "Bash(cd \"D:/Devel/Apsys/Curso Claude/recipe-book\" && npx tsc --noEmit 2>&1)"
+      "Bash(cd \"D:/Devel/Apsys/Curso Claude/recipe-book\" && npx tsc --noEmit 2>&1)",
+      "Bash(cd \"D:/Devel/Apsys/Curso Claude/recipe-book\" && openspec new change \"add-search-and-filter\" 2>&1)",
+      "Bash(cd \"D:/Devel/Apsys/Curso Claude/recipe-book\" && openspec status --change \"add-search-and-filter\" --json 2>&1)",
+      "Bash(cd \"D:/Devel/Apsys/Curso Claude/recipe-book\" && openspec instructions proposal --change \"add-search-and-filter\" --json 2>&1)",
+      "Bash(cd \"D:/Devel/Apsys/Curso Claude/recipe-book\" && openspec instructions design --change \"add-search-and-filter\" --json 2>&1)",
+      "Bash(cd \"D:/Devel/Apsys/Curso Claude/recipe-book\" && openspec instructions specs --change \"add-search-and-filter\" --json 2>&1)",
+      "Bash(cd \"D:/Devel/Apsys/Curso Claude/recipe-book\" && openspec instructions tasks --change \"add-search-and-filter\" --json 2>&1)",
+      "Bash(cd \"D:/Devel/Apsys/Curso Claude/recipe-book\" && openspec status --change \"add-search-and-filter\" 2>&1)"
     ]
   }
 }

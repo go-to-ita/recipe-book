@@ -1,32 +1,27 @@
-import { useGetRecipesQuery } from "../../../store/recipesApi";
+import type { Recipe } from "../../../store/recipesApi";
 import { RecipeCard } from "./RecipeCard";
 
-export function RecipeList() {
-  const { data: recipes, isLoading, isError } = useGetRecipesQuery();
+interface RecipeListProps {
+  recipes: Recipe[];
+  hasActiveFilters: boolean;
+}
 
-  if (isLoading) {
-    return (
-      <div className="flex justify-center items-center py-20">
-        <div className="w-10 h-10 border-4 border-orange-400 border-t-transparent rounded-full animate-spin" />
-      </div>
-    );
-  }
+export function RecipeList({ recipes, hasActiveFilters }: RecipeListProps) {
+  if (recipes.length === 0) {
+    if (hasActiveFilters) {
+      return (
+        <div className="text-center py-20 text-gray-500">
+          <p className="text-lg font-medium">No se encontraron recetas</p>
+          <p className="text-sm text-gray-400 mt-1">
+            Prueba con otros términos de búsqueda o categoría
+          </p>
+        </div>
+      );
+    }
 
-  if (isError) {
-    return (
-      <div className="text-center py-20 text-red-600">
-        <p className="text-lg font-medium">Error al cargar las recetas</p>
-        <p className="text-sm text-red-400 mt-1">
-          Verifica que el servidor mock esté activo en http://localhost:3001
-        </p>
-      </div>
-    );
-  }
-
-  if (!recipes || recipes.length === 0) {
     return (
       <div className="text-center py-20 text-gray-500">
-        <p className="text-lg">No hay recetas disponibles</p>
+        <p className="text-lg">No hay recetas disponibles en el catálogo</p>
       </div>
     );
   }
