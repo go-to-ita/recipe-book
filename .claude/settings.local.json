@@ -28,7 +28,15 @@
       "Bash(cd \"D:\\\\Devel\\\\Apsys\\\\Curso Claude\\\\recipe-book\" && openspec instructions proposal --change \"add-recipe-detail-page\" --json 2>&1)",
       "Bash(cd \"D:\\\\Devel\\\\Apsys\\\\Curso Claude\\\\recipe-book\" && openspec instructions specs --change \"add-recipe-detail-page\" --json 2>&1)",
       "Bash(cd \"D:\\\\Devel\\\\Apsys\\\\Curso Claude\\\\recipe-book\" && openspec instructions tasks --change \"add-recipe-detail-page\" --json 2>&1)",
-      "Bash(cd \"D:\\\\Devel\\\\Apsys\\\\Curso Claude\\\\recipe-book\" && openspec instructions apply --change \"add-recipe-detail-page\" --json 2>&1)"
+      "Bash(cd \"D:\\\\Devel\\\\Apsys\\\\Curso Claude\\\\recipe-book\" && openspec instructions apply --change \"add-recipe-detail-page\" --json 2>&1)",
+      "Bash(cd \"D:\\\\Devel\\\\Apsys\\\\Curso Claude\\\\recipe-book\" && openspec list --json 2>&1)",
+      "Bash(cd \"D:\\\\Devel\\\\Apsys\\\\Curso Claude\\\\recipe-book\" && openspec new change \"add-favorites\" 2>&1)",
+      "Bash(cd \"D:\\\\Devel\\\\Apsys\\\\Curso Claude\\\\recipe-book\" && openspec status --change \"add-favorites\" 2>&1)",
+      "Bash(cd \"D:\\\\Devel\\\\Apsys\\\\Curso Claude\\\\recipe-book\" && openspec instructions proposal --change \"add-favorites\" 2>&1)",
+      "Bash(cd \"D:\\\\Devel\\\\Apsys\\\\Curso Claude\\\\recipe-book\" && openspec status --change \"add-favorites\" --json 2>&1)",
+      "Bash(cd \"D:\\\\Devel\\\\Apsys\\\\Curso Claude\\\\recipe-book\" && openspec instructions proposal --change \"add-favorites\" --json 2>&1)",
+      "Bash(cd \"D:\\\\Devel\\\\Apsys\\\\Curso Claude\\\\recipe-book\" && openspec instructions design --change \"add-favorites\" --json 2>&1)",
+      "Bash(cd \"D:\\\\Devel\\\\Apsys\\\\Curso Claude\\\\recipe-book\" && openspec instructions specs --change \"add-favorites\" --json 2>&1)"
     ]
   }
 }
