@@ -6,10 +6,10 @@
       "description": "Totopos bañados en salsa verde con crema, queso y cebolla. Un clásico del desayuno mexicano.",
       "ingredients": [
         "12 tortillas cortadas en triángulos",
-        "500ml salsa verde",
-        "200g queso fresco",
+        "500 ml salsa verde",
+        "200 g queso fresco",
         "1 cebolla en rodajas",
-        "200ml crema ácida",
+        "200 ml crema ácida",
         "Aceite para freír",
         "Sal al gusto"
       ],
@@ -30,7 +30,7 @@
       "name": "Tacos al Pastor",
       "description": "Tacos de cerdo marinado con achiote, piña y cilantro. El taco más popular de México.",
       "ingredients": [
-        "1kg carne de cerdo en láminas",
+        "1 kg carne de cerdo en láminas",
         "4 chiles guajillo",
         "2 cucharadas pasta de achiote",
         "1 piña en rodajas",
@@ -84,12 +84,12 @@
       "description": "Tortillas rellenas de pollo bañadas en salsa roja de chile ancho y guajillo.",
       "ingredients": [
         "12 tortillas de maíz",
-        "500g pechuga de pollo desmenuzada",
+        "500 g pechuga de pollo desmenuzada",
         "6 chiles ancho",
         "4 chiles guajillo",
         "2 dientes de ajo",
-        "200g queso para gratinar",
-        "200ml crema",
+        "200 g queso para gratinar",
+        "200 ml crema",
         "Cebolla en rodajas"
       ],
       "steps": [
@@ -113,7 +113,7 @@
       "ingredients": [
         "1 lata leche condensada",
         "1 lata leche evaporada",
-        "200g queso crema",
+        "200 g queso crema",
         "5 huevos",
         "1 cucharadita vainilla",
         "1 taza azúcar para caramelo"
@@ -138,7 +138,7 @@
       "ingredients": [
         "4 teleras o bolillos",
         "2 tazas frijoles refritos",
-        "300g queso Oaxaca o manchego",
+        "300 g queso Oaxaca o manchego",
         "2 tomates picados",
         "1 cebolla picada",
         "1 chile serrano picado",
@@ -163,8 +163,8 @@
       "name": "Pozole Rojo",
       "description": "Caldo de maíz cacahuazintle con cerdo y chile rojo. Platillo tradicional de fiestas.",
       "ingredients": [
-        "1kg maíz cacahuazintle",
-        "1kg carne de cerdo (maciza y costilla)",
+        "1 kg maíz cacahuazintle",
+        "1 kg carne de cerdo (maciza y costilla)",
         "6 chiles guajillo",
         "3 chiles ancho",
         "1 cebolla",
@@ -190,8 +190,8 @@
       "description": "Totopos crujientes con queso cheddar derretido, jalapeños y guacamole.",
       "ingredients": [
         "1 bolsa de totopos",
-        "200g queso cheddar rallado",
-        "100g queso manchego rallado",
+        "200 g queso cheddar rallado",
+        "100 g queso manchego rallado",
         "Jalapeños en rodajas",
         "Guacamole",
         "Crema ácida",
@@ -243,7 +243,7 @@
       "ingredients": [
         "4 huevos",
         "4 tortillas de maíz",
-        "500ml salsa roja",
+        "500 ml salsa roja",
         "1 taza frijoles refritos",
         "1 aguacate en rebanadas",
         "Queso fresco",
@@ -264,18 +264,30 @@
     },
     {
       "id": "52ba",
-      "name": "Corundad",
-      "description": "sisisisi",
+      "name": "Corundas",
+      "description": "Corundas michoacanas rellenas de frijoles con salsa de jitomate y rajas.",
       "category": "Plato Fuerte",
       "difficulty": "Difícil",
       "prepTime": 120,
       "imageUrl": "https://revistamorelia.com/corundas-el-platillo-que-enorgullece-a-michoacan/",
       "ingredients": [
-        "hojas",
-        "Masa"
+        "1 kg masa de maíz",
+        "Manteca",
+        "3 tazas de agua",
+        "1 cucharadita bicarbonato",
+        "1 cucharadita polvo para hornear",
+        "Consomé de pollo al gusto",
+        "Hojas de maíz",
+        "Frijoles refritos",
+        "2 jitomates picados",
+        "1 cebolla picada",
+        "Rajas de chile poblano",
+        "Queso panela rallado"
       ],
       "steps": [
-        "1.1.-Para las corundas, bate la manteca hasta que este cremosa, agrega poco a poco la masa de maíz, 3 tazas de agua, el bicarbonato, polvo para hornear y el consomé de pollo. Continúa batiendo hasta que quede todo incorporado y la masa aumente un poco su tamaño.\nCocina\n2.2.-Coloca en un extremo de la hoja una cucharada de masa sin extenderla haz un doblez en forma de triángulo y vuelve a doblar hasta llegar al otro extremo. Acomoda las corundas en una olla de presión con suficiente agua y cocínalas durante 55 minutos a partir de que empiece a sonar la válvula.\nFríe\n3.3.-Para la salsa, calienta el aceite y fríe la cebolla hasta que este ligeramente; agrega los jitomates con el consomé de pollo en polvo y cocina a fuego bajo hasta que cambie de color. Añade las rajas, 1/2 taza de agua, el comino y la Media Crema NESTLÉ®; ofrece las corundas con la salsa y el queso panela rallado."
+        "Bate la manteca hasta que esté cremosa; agrega poco a poco la masa de maíz, el agua, el bicarbonato, el polvo para hornear y el consomé. Bate hasta que la masa esté homogénea y aumente un poco de volumen.",
+        "Coloca una cucharada de masa en un extremo de la hoja y haz un doblez en forma de triángulo; repite hasta cerrar. Acomoda las corundas en una olla de presión con agua y cocínalas 55 minutos desde que empiece a sonar la válvula.",
+        "Para la salsa, calienta aceite y fríe la cebolla; agrega los jitomates y el consomé, cocina a fuego bajo hasta que cambie de color. Añade las rajas y 1/2 taza de agua; sirve las corundas con la salsa y el queso panela rallado."
       ]
     },
     {
@@ -287,10 +299,13 @@
       "prepTime": 120,
       "imageUrl": "https://revistamorelia.com/wp-content/uploads/2025/04/Corundas-1024x768.jpeg.webp",
       "ingredients": [
-        "hojas"
+        "1 kg masa de maíz",
+        "Manteca",
+        "Sal al gusto",
+        "Hojas de maíz"
       ],
       "steps": [
-        "https://revistamorelia.com/wp-content/uploads/2025/04/Corundas-1024x768.jpeg.webp"
+        "Preparar la masa, envolver en hojas de maíz y cocer al vapor durante 55 minutos."
       ]
     }
   ],
