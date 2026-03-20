@@ -1,7 +1,7 @@
 {
   "recipes": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Chilaquiles Verdes",
       "description": "Totopos bañados en salsa verde con crema, queso y cebolla. Un clásico del desayuno mexicano.",
       "ingredients": [
@@ -26,7 +26,7 @@
       "imageUrl": "https://placehold.co/400x300?text=Chilaquiles"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Tacos al Pastor",
       "description": "Tacos de cerdo marinado con achiote, piña y cilantro. El taco más popular de México.",
       "ingredients": [
@@ -53,7 +53,7 @@
       "imageUrl": "https://placehold.co/400x300?text=Tacos+Pastor"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Guacamole Clásico",
       "description": "Guacamole fresco con aguacate, tomate, cebolla, chile y limón.",
       "ingredients": [
@@ -79,7 +79,7 @@
       "imageUrl": "https://placehold.co/400x300?text=Guacamole"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Enchiladas Rojas",
       "description": "Tortillas rellenas de pollo bañadas en salsa roja de chile ancho y guajillo.",
       "ingredients": [
@@ -107,7 +107,7 @@
       "imageUrl": "https://placehold.co/400x300?text=Enchiladas"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Flan Napolitano",
       "description": "Postre cremoso de queso crema con caramelo. Un clásico de la repostería mexicana.",
       "ingredients": [
@@ -132,7 +132,7 @@
       "imageUrl": "https://placehold.co/400x300?text=Flan"
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Molletes",
       "description": "Pan telera con frijoles refritos, queso gratinado y pico de gallo.",
       "ingredients": [
@@ -159,7 +159,7 @@
       "imageUrl": "https://placehold.co/400x300?text=Molletes"
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Pozole Rojo",
       "description": "Caldo de maíz cacahuazintle con cerdo y chile rojo. Platillo tradicional de fiestas.",
       "ingredients": [
@@ -185,7 +185,7 @@
       "imageUrl": "https://placehold.co/400x300?text=Pozole"
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Nachos con Queso",
       "description": "Totopos crujientes con queso cheddar derretido, jalapeños y guacamole.",
       "ingredients": [
@@ -210,7 +210,7 @@
       "imageUrl": "https://placehold.co/400x300?text=Nachos"
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "Arroz con Leche",
       "description": "Postre cremoso de arroz cocido en leche con canela y pasas.",
       "ingredients": [
@@ -237,7 +237,7 @@
       "imageUrl": "https://placehold.co/400x300?text=Arroz+Leche"
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "Huevos Rancheros",
       "description": "Huevos fritos sobre tortilla con salsa roja, frijoles y aguacate.",
       "ingredients": [
@@ -261,12 +261,56 @@
       "difficulty": "Fácil",
       "prepTime": 20,
       "imageUrl": "https://placehold.co/400x300?text=Huevos+Rancheros"
+    },
+    {
+      "id": "52ba",
+      "name": "Corundad",
+      "description": "sisisisi",
+      "category": "Plato Fuerte",
+      "difficulty": "Difícil",
+      "prepTime": 120,
+      "imageUrl": "https://revistamorelia.com/corundas-el-platillo-que-enorgullece-a-michoacan/",
+      "ingredients": [
+        "hojas",
+        "Masa"
+      ],
+      "steps": [
+        "1.1.-Para las corundas, bate la manteca hasta que este cremosa, agrega poco a poco la masa de maíz, 3 tazas de agua, el bicarbonato, polvo para hornear y el consomé de pollo. Continúa batiendo hasta que quede todo incorporado y la masa aumente un poco su tamaño.\nCocina\n2.2.-Coloca en un extremo de la hoja una cucharada de masa sin extenderla haz un doblez en forma de triángulo y vuelve a doblar hasta llegar al otro extremo. Acomoda las corundas en una olla de presión con suficiente agua y cocínalas durante 55 minutos a partir de que empiece a sonar la válvula.\nFríe\n3.3.-Para la salsa, calienta el aceite y fríe la cebolla hasta que este ligeramente; agrega los jitomates con el consomé de pollo en polvo y cocina a fuego bajo hasta que cambie de color. Añade las rajas, 1/2 taza de agua, el comino y la Media Crema NESTLÉ®; ofrece las corundas con la salsa y el queso panela rallado."
+      ]
+    },
+    {
+      "id": "5335",
+      "name": "Corundas",
+      "description": "Corundas michoacanas",
+      "category": "Desayuno",
+      "difficulty": "Fácil",
+      "prepTime": 120,
+      "imageUrl": "https://revistamorelia.com/wp-content/uploads/2025/04/Corundas-1024x768.jpeg.webp",
+      "ingredients": [
+        "hojas"
+      ],
+      "steps": [
+        "https://revistamorelia.com/wp-content/uploads/2025/04/Corundas-1024x768.jpeg.webp"
+      ]
     }
   ],
   "categories": [
-    { "id": 1, "name": "Desayuno" },
-    { "id": 2, "name": "Plato Fuerte" },
-    { "id": 3, "name": "Postre" },
-    { "id": 4, "name": "Snack" }
-  ]
+    {
+      "id": "1",
+      "name": "Desayuno"
+    },
+    {
+      "id": "2",
+      "name": "Plato Fuerte"
+    },
+    {
+      "id": "3",
+      "name": "Postre"
+    },
+    {
+      "id": "4",
+      "name": "Snack"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }

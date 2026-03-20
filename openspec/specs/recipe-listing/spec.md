@@ -1,5 +1,5 @@
 ### Requirement: Listado de recetas visible al entrar a la app
-La página principal (`/`) SHALL mostrar las recetas disponibles obtenidas desde `GET http://localhost:3001/recipes`, filtradas según los criterios de búsqueda y categoría activos. El listado SHALL presentarse en una cuadrícula responsiva de cards.
+La página principal (`/`) SHALL mostrar las recetas disponibles obtenidas desde `GET http://localhost:3001/recipes`, filtradas según los criterios de búsqueda y categoría activos. El listado SHALL presentarse en una cuadrícula responsiva de cards. La página SHALL incluir un botón o enlace "Nueva Receta" que permita navegar al formulario de creación (`/recipes/new`).
 
 #### Scenario: Carga exitosa del listado sin filtros
 - **WHEN** el usuario navega a la ruta `/` y no hay filtros activos
@@ -12,6 +12,14 @@ La página principal (`/`) SHALL mostrar las recetas disponibles obtenidas desde
 #### Scenario: Lista vacía del catálogo
 - **WHEN** la API devuelve un array vacío (sin filtros activos)
 - **THEN** se muestra un mensaje indicando que no hay recetas disponibles en el catálogo
+
+#### Scenario: Botón "Nueva Receta" visible
+- **WHEN** el usuario está en la página de listado (`/`)
+- **THEN** se muestra un botón o enlace "Nueva Receta" visible en la página
+
+#### Scenario: Navegación al formulario de creación desde el listado
+- **WHEN** el usuario hace click en "Nueva Receta"
+- **THEN** la aplicación navega a `/recipes/new`
 
 ### Requirement: Card de receta con información clave
 Cada card SHALL mostrar los siguientes datos de la receta: imagen (o placeholder si no hay URL), nombre, categoría, nivel de dificultad y tiempo de preparación. La card SHALL incluir un texto o control de navegación que permita ir al detalle de la receta.
