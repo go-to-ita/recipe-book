@@ -39,7 +39,8 @@
       "Bash(cd \"D:\\\\Devel\\\\Apsys\\\\Curso Claude\\\\recipe-book\" && openspec instructions specs --change \"add-favorites\" --json 2>&1)",
       "Bash(cd \"D:\\\\Devel\\\\Apsys\\\\Curso Claude\\\\recipe-book\" && openspec status --change \"add-recipe-create-form\" --json)",
       "Bash(cd \"D:\\\\Devel\\\\Apsys\\\\Curso Claude\\\\recipe-book\" && openspec instructions tasks --change \"add-recipe-create-form\" --json)",
-      "Bash(cd \"D:\\\\Devel\\\\Apsys\\\\Curso Claude\\\\recipe-book\" && cp -r openspec/changes/add-recipe-create-form openspec/changes/archive/2026-03-20-add-recipe-create-form && rm -rf openspec/changes/add-recipe-create-form)"
+      "Bash(cd \"D:\\\\Devel\\\\Apsys\\\\Curso Claude\\\\recipe-book\" && cp -r openspec/changes/add-recipe-create-form openspec/changes/archive/2026-03-20-add-recipe-create-form && rm -rf openspec/changes/add-recipe-create-form)",
+      "Bash(cd \"D:\\\\Devel\\\\Apsys\\\\Curso Claude\\\\recipe-book\" && openspec new change \"share-recipe-whatsapp\" 2>&1)"
     ]
   }
 }

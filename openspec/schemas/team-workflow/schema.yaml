@@ -184,6 +184,15 @@ artifacts:
       Good design docs explain the "why" behind technical decisions.
     requires:
       - proposal
+  - id: review
+    generates: review.md
+    description: Pre-implementation review checklist
+    template: review.md
+    instruction: |
+      Create a review checklist based on the design.
+      Include: security, performance, accessibility, and testing considerations.
+    requires:
+      - design
   - id: tasks
     generates: tasks.md
     description: Implementation checklist with trackable tasks
@@ -237,6 +246,7 @@ artifacts:
     requires:
       - specs
       - design
+      - review
 apply:
   requires:
     - tasks
